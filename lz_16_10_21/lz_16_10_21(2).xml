@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<!-- <?xml-stylesheet type="text/css" href="dict.css"?> -->
+<?xml-stylesheet type="text/xsl" href="lz_16_10_21(2).xsl"?>
+<!-- <!DOCTYPE block SYSTEM "dict.dtd"> -->
+<block>
+    <item>
+        <name> id_kl_ab  </name>
+        <info>  идентификационный номер записи, поле является счетчиком</info>
+        <dop> В данном поле находится информация о номере записи</dop>
+    </item>
+    <item>
+        <name> id_klient  </name>
+        <info>  идентификационный номер клиента</info>
+        <dop>В данном поле находится информация о идентификационном номере клиента</dop>
+    </item>
+    <item>
+        <name> id_abonem  </name>
+        <info>  номер абонемента</info>
+        <dop>В данном поле находится информация о номере абонемента</dop>
+    </item>
+    <item>
+        <name> Summa  </name>
+        <info>  стоимость абонемента</info>
+        <dop>В данном поле находится информация о стоимости абонемент</dop>
+    </item>
+    <item>
+        <name> Start  </name>
+        <info> дата начала действия абонемента</info>
+        <dop>В данном поле находится информация о дате начала действия абонемента</dop>
+    </item>
+    <item>
+        <name> Finish  </name>
+        <info>  дата конца действия абонемента</info>
+        <dop>В данном поле находится информация о дате конца действия абонемента</dop>
+    </item>
+</block>
+

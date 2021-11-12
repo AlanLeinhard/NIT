@@ -1,0 +1,9 @@
+<?xml version="1.0" ?> <--указывает используемую версию языка XML (в данном случае версия 1.0).-->
+<!ELEMENT block (item)> <-- указывает корневой элемент -->
+   <!ELEMENT item (name,info,dop?)>
+   <!ELEMENT pole (#PCDATA)>
+      <!ATTLIST name number ID #REQUIRED>
+      <!ATTLIST name group (abon|klin|klin_abon|tren|vid) #REQUIRED>
+   <!ELEMENT info (#PCDATA)>
+   <!ELEMENT dop (#PCDATA)>
+<!ENTITY Кафедры Воронежского института МВД>

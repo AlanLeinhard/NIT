@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<?xml-stylesheet type="text/css" href="dict.css"?>
+<!DOCTYPE podrazdelenie SYSTEM "dict.dtd">
+<podrazdelenie>
+   <item>
+      <name number ='_1' group='klin_abon'> id_kl_ab  </name>
+      <info> - идентификационный номер записи, поле является счетчиком
+      </info>
+      <dop> В данном поле находится информация о номере записи</dop>
+   </item>
+   <item>
+      <name number ='_2' group='klin_abon'> id_klient  </name>
+      <info> - идентификационный номер клиента
+      </info>
+      <dop>В данном поле находится информация о идентификационном номере клиента</dop>
+   </item>
+   <item>
+      <name number ='_3' group='klin_abon'> id_abonem  </name>
+      <info> - номер абонемента
+      </info>
+      <dop>В данном поле находится информация о номере абонемента</dop>
+   </item>
+   <item>
+      <name number ='_4' group='klin_abon'> Summa  </name>
+      <info> - стоимость абонемента
+      </info>
+      <dop>В данном поле находится информация о стоимости абонемент</dop>
+   </item>
+   <item>
+      <name number ='_5' group='klin_abon'> Start  </name>
+      <info> дата начала действия абонемента
+      </info>
+      <dop>В данном поле находится информация о дате начала действия абонемента</dop>
+   </item>
+   <item>
+      <name number ='_6' group='klin_abon'> Finish  </name>
+      <info> - дата конца действия абонемента
+      </info>
+      <dop>В данном поле находится информация о дате конца действия абонемента</dop>
+   </item>
+</podrazdelenie> 

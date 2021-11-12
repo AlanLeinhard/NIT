@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/css" href="dict.css"?> -->
+<?xml-stylesheet type="text/xsl" href="lz_27_10_21(6).xsl"?>
+<!-- <!DOCTYPE block SYSTEM "dict.dtd"> -->
+<block>
+    <item>
+        <id_kl_ab> 1  </id_kl_ab>
+        <id_klient>Швецов Игорь Юрьевич</id_klient>
+        <id_abonem>32</id_abonem>
+        <summa>365</summa>
+        <start>31.05.2020</start>
+        <finish>31.06.2020</finish>
+    </item>
+    <item>
+        <id_kl_ab> 2  </id_kl_ab>
+        <id_klient> Иванов Иван Ивонович</id_klient>
+        <id_abonem>43</id_abonem>
+        <summa>600</summa>
+        <start>01.06.2020</start>
+        <finish>01.08.2020</finish>
+    </item>
+    <item>
+        <id_kl_ab> 3  </id_kl_ab>
+        <id_klient>Вольф Вессимир Геральдович</id_klient>
+        <id_abonem>50</id_abonem>
+        <summa>800</summa>
+        <start>01.06.2020</start>
+        <finish>01.09.2020</finish>
+    </item>
+    <item>
+        <id_kl_ab> 4  </id_kl_ab>
+        <id_klient>Остов Адольф Васильевич</id_klient>
+        <id_abonem>60</id_abonem>
+        <summa>850</summa>
+        <start>02.07.2020</start>
+        <finish>17.10.2020</finish>
+    </item>
+    <item>
+        <id_kl_ab>14</id_kl_ab>
+        <id_klient>Гитлер Адольф Алоисович</id_klient>
+        <id_abonem>88</id_abonem>
+        <summa>20000</summa>
+        <start>30.01.2020</start>
+        <finish>30.01.2030</finish>
+    </item>
+</block>
+

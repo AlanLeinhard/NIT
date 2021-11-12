@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="lz_12_11_21.xsl"?>
+<block>
+    <item>
+        <id_dis> 1 </id_dis>
+        <name>Физика</name>
+        <prepod>Остов Арнольд Васильевич</prepod>
+        <spec>Физика</spec>
+        <hour>98</hour>
+    </item>
+    <item>
+        <id_dis> 2 </id_dis>
+        <name>Огневая погдготовка</name>
+        <prepod> Иванов Иван Ивонович</prepod>
+        <spec>Огневая погдготовка</spec>
+        <hour>128</hour>
+    </item>
+    <item>
+        <id_dis> 3 </id_dis>
+        <name>Административная деятельность</name>
+        <prepod>Вольф Весемир Геральтович</prepod>
+        <spec>Административное дело</spec>
+        <hour>34</hour>
+    </item>
+    <item>
+        <id_dis> 4 </id_dis>
+        <name>Сети и Телекоммуникации</name>
+        <prepod>Остов Арнольд Васильевич</prepod>
+        <spec>Информационные телекоммуникационные системы</spec>
+        <hour>95</hour>
+    </item>
+    <item>
+        <id_dis> 14 </id_dis>
+        <name>История</name>
+        <prepod>Гитлер Адольф Алоисович</prepod>
+        <spec>Автоматизированные Информационные системы</spec>
+        <hour>88</hour>
+ </item>
+</block>
+

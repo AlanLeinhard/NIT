@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+</meta>
+
+<head>
+    <title>Таблица</title>
+
+<body bgcolor="#FFFFFF" onload="init()">
+
+    <table border="1">
+        <tr bgcolor="#CCCCCC">
+
+            <td width="18" align="center"><a href="#" onClick="orderByColumn(1)"><strong>ID</strong></a></td>
+
+            <td width="220" align="center"><a href="#" onClick="orderByColumn(2)"> <strong>Клиент</strong></a></td>
+
+            <td width="105" align="center"><a href="#" onClick="orderByColumn(3)"><strong>Абонемент</strong></a></td>
+
+            <td width="105" align="center"><a href="#" onClick="orderByColumn(4)"><strong>Цена</strong></a></td>
+
+            <td width="105" align="center"><a href="#" onClick="orderByColumn(5)"><strong>Старт</strong></a></td>
+
+            <td width="105" align="center"><a href="#" onClick="orderByColumn(6)"><strong>Конец</strong></a></td>
+
+        </tr>
+    </table>
+
+    <div id="xslresult">
+    </div>
+    <script>
+        let source;
+        let style;
+        function init() {
+            source = new ActiveXObject("Microsoft.XMLDOM");
+            source.async = false;
+            style = new ActiveXObject("Microsoft.XMLDOM");
+            style.async = false;
+            source.load("lz_29_10_21.xml");
+            style.load("lz_29_10_21.xsl");
+            document.all.item("xslresult").innerHTML = source.transformNode(style);
+            return true;
+        }
+        function orderByColumn(orderColumnIs) {
+            switch (orderColumnIs) {
+
+                case 1: {
+                    style.load("lz_29_10_21.xsl");
+                    document.all.item("xslresult").innerHTML = source.transformNode(style);
+                    break;
+                }
+
+                case 2: {
+                    style.load("lz_29_10_21(2).xsl");
+                    document.all.item("xslresult").innerHTML = source.transformNode(style);
+                    break;
+                }
+
+                case 3: {
+                    style.load("lz_29_10_21(3).xsl");
+                    document.all.item("xslresult").innerHTML = source.transformNode(style);
+                    break;
+                }
+
+                case 4: {
+                    style.load("lz_29_10_21(4).xsl");
+                    document.all.item("xslresult").innerHTML = source.transformNode(style);
+                    break;
+                }
+
+                case 5: {
+                    style.load("lz_29_10_21(5).xsl");
+                    document.all.item("xslresult").innerHTML = source.transformNode(style);
+                    break;
+                }
+
+                case 6: {
+                    style.load("lz_29_10_21(6).xsl");
+                    document.all.item("xslresult").innerHTML = source.transformNode(style);
+                    break;
+                }
+
+                default: {
+                    style.load("lz_29_10_21.xsl");
+                    document.all.item("xslresult").innerHTML = source.transformNode(style);
+                }
+            }
+        }
+    </script>
+</body>
+</head>
+
+</html>
+
